@@ -1,4 +1,5 @@
 b:
+	mkdir -p bin
 	gcc src/server_main_echo_fork.c src/server_lib.c -o bin/server_echo_fork.out
 	gcc src/server_main_web.c src/server_lib.c -o bin/server_web.out
 	gcc src/server_main_sum2_signal.c src/server_lib.c -o bin/server_sum2_s.out
