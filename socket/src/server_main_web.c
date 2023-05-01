@@ -10,7 +10,7 @@ void handle_client_web(int connfd){
       "Content-Length: 38\r\n"
       "Content-Type: text/html; charset=utf-8\r\n"
       "\r\n"
-      "<button type=\"button\">Hello!</button>", 500);
+      "<button type=\"button\">CSE384</button>", 500);
   } 
   close(connfd);
 }
