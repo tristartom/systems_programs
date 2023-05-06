@@ -2,10 +2,9 @@
 #include <unistd.h>
 
 int main(void){
+  fork();
   printf("Alice\n");
   fork();
   printf("Bob\n");
-  if (fork() == 0)
-    printf("Charlie\n");
 }
 
