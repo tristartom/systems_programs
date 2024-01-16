@@ -6,6 +6,7 @@ b:
 
 
 lib:
+	cp -r ../process/src ./lib_src
 	gcc lib_src/mmap.c -o bin/mmap.out
 	gcc lib_src/signal_handler.c -o bin/signal_handler.out
 	gcc lib_src/signal_sender.c -o bin/signal_sender.c
