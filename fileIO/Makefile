@@ -1,5 +1,7 @@
 all:
-	gcc src/fgets.c -o bin/fgets.out
+	gcc src/fputs_fgets.c -o bin/fputs_fgets.out
+	gcc src/fputc_fgetc.c -o bin/fputc_fgetc.out
 
 run:
-	./bin/fgets.out
+	./bin/fputs_fgets.c.out
+	./bin/fputc_fgetc.out
