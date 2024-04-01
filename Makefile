@@ -1,4 +1,4 @@
-all:
+all: c
 	git push
 
 c:
