@@ -4,7 +4,7 @@ t2:
 	gcc permissions.c
 	./a.out
 	ls -al file.txt
-	rm *out
+	rm *out *txt
 	
 t1:
 	touch file.txt

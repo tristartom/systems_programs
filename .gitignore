@@ -3,3 +3,4 @@ socket2/*
 *.out
 socket/src/server_main_sum2*
 *.swp
+*.txt
