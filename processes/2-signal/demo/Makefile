@@ -1,3 +1,14 @@
+t4:
+	gcc alarm2.c
+	./a.out
+	rm *out
+
+
+t3:
+	gcc alarm.c
+	./a.out
+	rm *out
+
 t1:
 	gcc getpid.c
 	./a.out
