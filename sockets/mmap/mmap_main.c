@@ -14,5 +14,4 @@ int main(void) {
     printf("Child write: %d\n", *shared_x);
   } else {
     printf("Parent read: %d\n", *shared_x);
-    while(* shared_x == 3);
     printf("After sync, parent read: %d\n", *shared_x);}}
