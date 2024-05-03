@@ -1,5 +1,6 @@
 misc/*
 socket2/*
+.tests/*
 *.out
 socket/src/server_main_sum2*
 *.swp
