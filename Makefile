@@ -3,7 +3,7 @@ all: c
 
 c:
 	git add -A
-	git commit -am 'fix basicio'
+	git commit -am 'All'
 
 b:
 	make -C socket all
