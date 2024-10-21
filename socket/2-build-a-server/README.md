@@ -7,3 +7,9 @@ When the multiprocessing (web) server is fully built, the following illustrtes h
 
 ![Contract design diagram](nb-server.png)
 
+Secure server
+===
+
+![Contract design diagram](authorized-writes.png)
+
+![Contract design diagram](authorized-writes-toctou.png)
