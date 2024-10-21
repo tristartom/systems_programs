@@ -1,6 +1,9 @@
 echo-s:
+	touch file.txt
 	gcc -I ../lib ../lib/server_lib.c server_main_echo.c -o server.out
 	./server.out 1234
+	cat file.txt
+	rm file.txt
 
 echo-c:
 	gcc -I ../lib ../lib/client_lib.c client_main_echo.c -o client.out

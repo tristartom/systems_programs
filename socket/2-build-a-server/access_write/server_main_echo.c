@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
         write(fd, buf2, 10);
         close(fd);    
       }
-      close(connfd);
     }
+    close(connfd);
     exit(0);}
 }
