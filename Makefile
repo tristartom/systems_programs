@@ -3,7 +3,7 @@ all: c
 
 c:
 	git add -A
-	git commit -am 'req_resp_raceBal with Weixiang'
+	git commit -am 'All'
 
 b:
 	make -C socket all
