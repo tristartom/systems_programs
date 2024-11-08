@@ -1,8 +1,8 @@
 all: c
-	git config --global user.email tristartom@gmail.com
 	git push
 
 c:
+	git config --global user.email tristartom@gmail.com
 	git add -A
 	git commit -am 'All'
 
