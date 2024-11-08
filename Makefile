@@ -1,4 +1,5 @@
 all: c
+	git config --global user.email tristartom@gmail.com
 	git push
 
 c:
