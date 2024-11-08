@@ -2,10 +2,11 @@
 
 char* resp_404 = "HTTP/1.1 404\r\n\r\nContent-Length: 0\r\n";
 char* resp_button = "HTTP/1.1 200 OK\r\n"
-      "Content-Length: 38\r\n"
+      "Content-Length: 115\r\n"
       "Content-Type: text/html; charset=utf-8\r\n"
       "\r\n"
-      "<button type=\"button\">OrangeButton</button>";
+      "<button type=\"button\">OrangeButton</button>\r\n"
+      "<img src=\"127.0.0.1:2009\" alt=\"broken image\" width=\"10\" height=\"10\"/>";
 
 void handle_client_web(int connfd){
   char buf2[1000];
