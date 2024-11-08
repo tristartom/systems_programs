@@ -14,5 +14,6 @@ FuSSIL covers a number of topics in the full stack of a computer system, includi
 
 Currently, this repository contains a collection of minimalist examples written in `C` to demo the above scenarios.
 
-FuSSIL has been used in a undergraduate Computer-Science core course, CSE 384 ("Introduction to Systems and Network Programming"), at Syracuse University: https://tristartom.github.io/teaching/cse384/
+FuSSIL has been used in an undergraduate Computer-Science core course, CSE 384 ("Introduction to Systems and Network Programming"), at Syracuse University: https://tristartom.github.io/teaching/cse384/
+
 
